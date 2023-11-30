@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ToDo{
+    display: none;
+    width: 500px;
+    max-height: 500px;
+    overflow:auto;
+}
+
+.contacts{
+    display: none;
+    height: 500px;
+}
+
+.navOpc{
+    padding-left: 12px;
+    width: 98.8vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.tabla{
+    width: 100%;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(204, 204, 204);
+} 
+
+.pd{
+    margin: 0;
+}
+
+.gifRobot{
+    display: flex;
+}
+
+.txtd{
+    height: 50px;
+    width: 90%;
+    padding: 5px;
+    font-family: jetbrains mono;
+    text-align: left;
+    vertical-align: middle;
+}
+.deleteHw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
+.cardAdd{
+    width: 100%;
+    border: 5px dashed black;
+    padding: 5px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+}
+
+.xx{
+    width: 30px;
+}
+
+.cont{
+    border: 1px solid black;
+    display: flex;
+    width: 98.79vw;
+    height: 100vh;
+}
+
+.datosContact{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardCon{
+    border: 1px solid royalblue;
+    /* height: 100px; */
+}
+.saveContact{
+    margin: 10px;
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(82, 149, 122);
+    border-color:rgb(82, 149, 122) ;
+}
+.addContact{
+    border: 1px solid black;
+    width: 26%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.listCards{
+    padding: 10px;
+    width: 74%;
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgContact{
+    width: 150px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+
+}
+.contacts{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: none;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    overflow: auto;
+}
+.right{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Left{
+    border: 1px solid black;
+    display: flex;
+    width: 8%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Left img{
+    width: 100px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn_Flotante{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 6px 32px -10px rgba(0,0,0,0.3);
+    z-index: 200;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gold;
+}
+
+.btn_Flotante img {
+    width: 50%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 45%; /* Ajusta el radio de la imagen al círculo */
+}
